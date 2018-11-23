@@ -1,24 +1,24 @@
-# require 'pry'
+# # require 'pry'
 
-class Song 
+# class Song 
   
-  attr_accessor :name, :artist
+#   attr_accessor :name, :artist
   
-  @@all = []
+#   @@all = []
   
-  def initialize(name)
-    @name = name
-    @@all << self
-  end
+#   def initialize(name)
+#     @name = name
+#     @@all << self
+#   end
   
-  def self.all
-    @@all
-  end
+#   def self.all
+#     @@all
+#   end
   
-  def artist_name
-    artist_name = self.artist.name
-  end
+#   def artist_name
+#     artist_name = self.artist.name
+#   end
 
 
-end
+# end
 
