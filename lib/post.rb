@@ -15,7 +15,11 @@ class Post
   end
   
   def author_name
-    author_name = self.author.name
+    if self.author.name == nil 
+      return nil 
+    else
+      self.author.name
+    end
   end
   
   def self.post_count
