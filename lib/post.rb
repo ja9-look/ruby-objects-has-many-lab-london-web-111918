@@ -1,4 +1,4 @@
-require 'author'
+
 
 class Post 
   
