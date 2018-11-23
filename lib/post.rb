@@ -14,8 +14,8 @@ class Post
     @@all 
   end
   
-  def author_name
-    
+  def artist_name
+    artist_name = self.artist.name
   end
   
   def self.post_count
