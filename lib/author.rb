@@ -3,7 +3,6 @@ class Author
   attr_accessor :name, :posts
   
   def initialize(name)
-    @name = self.name
     @name = name
     @posts = []
   end
