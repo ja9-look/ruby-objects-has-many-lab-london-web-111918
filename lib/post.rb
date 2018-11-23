@@ -18,4 +18,8 @@ class Post
     
   end
   
+  def post_count
+    self.all.count
+  end
+
 end
