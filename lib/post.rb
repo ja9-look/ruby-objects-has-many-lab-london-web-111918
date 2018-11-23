@@ -1,3 +1,5 @@
+require 'author'
+
 class Post 
   
   
